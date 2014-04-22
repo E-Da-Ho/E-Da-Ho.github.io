@@ -12,7 +12,7 @@
 	<link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Custom styles -->
-	<!--link href="./selfie.css" rel="stylesheet"-->
+	<link href="dist/css/selfie.css" rel="stylesheet">
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,15 +39,17 @@
 			<p class="col-lg-10 lead">Sourced In is the launch pad of Eric Hollbach, devoloper evangelist. He
 				lives in Canada, where he is a candidate for a B.A.S.c in Electrical Engineering. In
 				his *cough* <i>free time</i> *cough* he likes to watch sports, learn new languages, and
-				hang out with his girlfriend. He is actively <b>seeking employment</b> for the coming
-				Spring work term so feel free to get in touch. Enjoy your stay!
+				hang out with his girlfriend. He hopes you enjoy your stay!
 			</p>
+
 		</header>
 
 		<nav role="navigation">
-			<a class="col-lg-1" href="#">Home</a>
-			<a class="col-lg-1" href="#">Blog</a>
-			<a class="col-lg-1" href="#">About</a>
+			<ul class="nav nav-pills nav-stacked pull-right col-lg-1">
+				<li class="active"><a href="./.">Home</a></li>
+				<li class="disabled"><a href="./about">About</a></li><!-- more about me -->
+				<li class="disabled"><a href="./blog">Blog</a></li><!-- jekyll blogging -->
+			</ul>
 		</nav>
 
 	</div><!-- /.container -->
@@ -64,31 +66,35 @@
 			<p>As well as being a technology advocat, Eric pushes the boundaries of traditional social
 				marketing schemes. As the lone founder of In-Sourcing Consultants, he is proud to present the
 				very first <abbr title="Inbound/Outbound" class="initialism">I/O</abbr> Marketing Platform.
-				Fundamentally different from all marketing that came before, this unique blend of both
-				paradigms will increase your <abbr title="Return on Investment" class="initialism">ROI</abbr>. Although let it be noted that he despises growth hacking in all shapes and sizes.
+				Fundamentally different from all marketing that came before, this unique blend of paradigms will help you turn visitors into promoters. Check back shortly for samples of his work.
 			</p>
 
-
 		</main>
-
-		<aside role="complementary">
-
-			<!-- todo link this to my custom domain -->
-
-		</aside>
 
 	</div>
 
 	<!-- FOOTER
 	=================================================================================-->
 
-	<div class="container">
+	<center class="final container">
+
+		<aside role="complementary">
+
+			<address>
+				<strong>Eric Hollbach</strong><br>
+				<a href="mailto:ehollbach@gmail.com">Contact Me</a>
+			</address>
+
+		</aside>
 
 		<footer role="contentinfo">
+
 			<small>&copy; Eric Hollbach 2012, 2013, 2014. All rights reserved.</small>
+
 		</footer>
 
-	</div>
+
+	</center>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

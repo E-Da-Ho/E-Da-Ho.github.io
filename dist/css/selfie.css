@@ -1,0 +1,22 @@
+@charset("UTF-8");
+
+html,
+body {
+	text-align: justify;
+}
+
+* {
+	color: rgba(20,10,20,10); /* this is stupid I don't know why I added it */
+}
+
+h1 {
+	text-decoration: none;
+}
+
+.container {
+	padding: 2%;
+}
+
+.final {
+	padding: 5%;
+}
